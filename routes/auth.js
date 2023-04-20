@@ -34,6 +34,7 @@ router.post('/login', async (req, res) => {
     if (!validPassword) return res.status(400).json({ error: 'contraseña no válida' })
     
     // create token
+    /* en el token paso los valores del usuario y en admin los puedo obtener en mi ruta protegida */
     const token = jwt.sign({
         name: user.name,
         id: user._id,
