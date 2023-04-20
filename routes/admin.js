@@ -5,7 +5,7 @@ router.get('/', (req, res) => {
         error: null,
         data: {
             title: 'mi ruta protegida',
-            user: req.user
+            user: req.user,
             correito : req.body.email
         }
     })
