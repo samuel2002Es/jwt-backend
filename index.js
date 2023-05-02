@@ -1,4 +1,4 @@
-
+/* para hacer el deploy utilice https://railway.app/ solo recuerda subir el proyecto desde github y incluir las variables de entorno asi como el node index del package.json */
 const express = require('express');
 /* conectarnos a la base de datos */
 const mongoose = require('mongoose');
